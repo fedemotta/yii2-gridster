@@ -1,0 +1,32 @@
+{
+    "name": "fedemotta/yii2-gridster",
+    "description": "Gridster.js widget for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gridster","gridster.js","drag-and-drop","multi-column","jQuery","grid","plugin"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/fedemotta/yii2-gridster/issues?state=open",
+        "source": "https://github.com/fedemotta/yii2-gridster"
+    },
+    "authors": [
+        {
+            "name": "Federico Nicolás Motta",
+            "email": "fedemotta@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery":"*",
+        "bower-asset/gridster.js":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fedemotta\\gridster\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
