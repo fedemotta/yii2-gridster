@@ -20,3 +20,15 @@ or add
 ```
 
 to the require section of your `composer.json` file.
+
+Usage
+-----
+Includes Gridster as a dependency of your Asset file.
+
+```php
+public $depends = [
+...
+'fedemotta\gridster\GridsterAsset',
+...
+];
+```
