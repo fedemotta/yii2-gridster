@@ -14,5 +14,4 @@ use yii\base\Widget;
  */
 class Gridster extends Widget
 {
-    
 }
