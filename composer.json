@@ -2,6 +2,7 @@
     "name": "fedemotta/yii2-gridster",
     "description": "Gridster.js widget for Yii2",
     "type": "yii2-extension",
+    "minimum-stability": "stable",
     "keywords": ["yii2","extension","gridster","gridster.js","drag-and-drop","multi-column","jQuery","grid","plugin"],
     "license": "MIT",
     "support": {
