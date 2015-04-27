@@ -23,7 +23,47 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
-Includes Gridster as a dependency of your Asset file.
+Use gridster as any other other Yii2 widget.
+
+```php
+use fedemotta\gridster\Gridster;
+```
+
+```php
+<?php $gridster = Gridster::begin([
+            'options'=>['class'=>'gridster'],
+            'clientOptions'=>[
+                'widget_margins'=> [10, 10],
+                'widget_base_dimensions'=> [140, 140],
+                'autogrow_cols'=> false,
+                'resize'=>['enabled'=>true]
+            ]
+    ]);?>
+            <?= $gridster->beginWidget([
+                    'data-row'=>"1", 'data-col'=>"1", 'data-sizex'=>"5", 'data-sizey'=>"2",
+                ]);
+            ?>
+                <header>Some text</header>
+                The widget content
+            <?=$gridster->endWidget();?>
+            <?=$gridster->beginWidget([
+                    'data-row'=>"1", 'data-col'=>"1", 'data-sizex'=>"4", 'data-sizey'=>"1",
+                ]);
+            ?>
+                <header>Some text</header>
+                The widget content
+            <?=$gridster->endWidget();?>
+            <?=$gridster->beginWidget([
+                    'data-row'=>"1", 'data-col'=>"1", 'data-sizex'=>"4", 'data-sizey'=>"1",
+                ]);
+            ?>
+                <header>Some text</header>
+                The widget content
+            <?=$gridster->endWidget();?>
+    <?php Gridster::end();?>
+```
+
+You can also use gridster from JavaScript. Includes Gridster as a dependency of your Asset file.
 
 ```php
 public $depends = [
