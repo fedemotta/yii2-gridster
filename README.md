@@ -39,6 +39,7 @@ $gridster = Gridster::begin([
         'resize'=>['enabled'=>true]
     ]
 ]);?>
+
 <?= $gridster->beginWidget([
         'data-row'=>"1", 'data-col'=>"1", 'data-sizex'=>"5", 'data-sizey'=>"2",
     ]);
@@ -46,6 +47,7 @@ $gridster = Gridster::begin([
     <header>Some text</header>
     The widget content
 <?=$gridster->endWidget();?>
+
 <?=$gridster->beginWidget([
         'data-row'=>"1", 'data-col'=>"1", 'data-sizex'=>"4", 'data-sizey'=>"1",
     ]);
@@ -53,6 +55,7 @@ $gridster = Gridster::begin([
     <header>Some other text</header>
     The other widget content
 <?=$gridster->endWidget();?>
+
 <?php 
 Gridster::end();
 ```
