@@ -2,6 +2,8 @@ Gridster.js widget for Yii2
 ===========================
 This extension provides the [Gridster.js](https://github.com/ducksboard/gridster.js) integration for the Yii2 framework.
 
+[![Latest Stable Version](https://poser.pugx.org/fedemotta/yii2-gridster/v/stable)](https://packagist.org/packages/fedemotta/yii2-gridster) [![Total Downloads](https://poser.pugx.org/fedemotta/yii2-gridster/downloads)](https://packagist.org/packages/fedemotta/yii2-gridster) [![Latest Unstable Version](https://poser.pugx.org/fedemotta/yii2-gridster/v/unstable)](https://packagist.org/packages/fedemotta/yii2-gridster) [![License](https://poser.pugx.org/fedemotta/yii2-gridster/license)](https://packagist.org/packages/fedemotta/yii2-gridster)
+
 Installation
 ------------
 
